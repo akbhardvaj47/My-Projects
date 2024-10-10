@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 3px 0px #d4bdbd;
+}
+.leftside{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftside .logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside .logo img{
+    width: 50px;
+    height: 35px;
+    margin: 8px 70px;
+}
+.leftside .menu ul{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.leftside .menu ul a{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.rightside{
+    width: 55%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    display: flex;
+}
+.rightside form{
+    width: 70%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.rightside form button{
+    width: 10%;
+    border: none;
+    background: transparent;
+}
+.rightside form input{
+    width: 90%;
+    height: 30px;
+    border: none;
+}
+.user{
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin: 0px 20px;
+}
+.user ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+.user ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner2 img{
+    width: 100%;
+    height: 300px;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.heading{
+    width: 99%;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px 3px #a87932;
+}
+.heading h1{
+    color: #a87932;
+    text-align: center;
+    text-transform: uppercase;
+}
+.brandrow{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.brandrow .branditems{
+    width: 16%;
+    display: flex;
+    margin-left: 2px;
+}
+.brandrow .branditems img{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 230px;
+    height: 270px;
+}
+.cust-uses{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    margin: 100px 250px;
+    opacity: 0.6;
+}
+.cust-uses ul{
+    margin-top: 30px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cust-uses ul h5{
+    margin-top: 20px;
+}
+.list2{
+    margin-left: 80px;
+
+}
+.list3 p{
+    font-size: 12px;
+    margin-left: 60px;
+}
+.list3 .icons{
+    font-size: 40px;
+    margin: 30px 0px 0px 60px;
+} 
+.list3 .icons a i{
+    text-decoration: none;
+    color: black;
+}
+.list4{
+    width: 250px;
+    height: 150px;
+    margin-left: 150px;
+}
+.list1c1{
+    margin-top: 50px;
+}
+.footer{
+    width: 73%;
+    height: 230px;
+    margin: auto;
+    opacity: 0.6;
+}
+.footer h5{
+    margin: 20px 0px;
+}
+.footer p{
+    font-size: 14px;
+    line-gap-override: 10px;
+    line-height: 25px;
+}
+.footer ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    width: 73%;
+    display: flex;
+    font-size: 14px;
+    opacity: 0.6;
+    /* height: 180px; */
+    margin: auto;
+}
+.location .contact{
+    margin-top: 125px;
+    margin-left: 400px;
+}
+.location h4{
+    margin: 20px 0px;
+}
+.details{
+    width: 73%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: justify;
+    line-height: 25px;
+    opacity: 0.6;
+}
+.details h5, h4, b{
+    opacity: 1;
+}
