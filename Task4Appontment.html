@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main{
+            border-radius: 10px;
+            border: 2px solid crimson;
+            width: 70%;
+            margin: auto;
+        }
+        legend{
+            text-align: center;
+        }
+      textarea, select{
+        width: 250px;
+      }
+      button{
+        margin-left: 66%;
+        background-color: green;
+        width: 200px;
+      }
+    </style>
+</head>
+
+<body>
+    <fieldset class="main">
+        <legend>
+            <H1>Appointment Letter</H1>
+        </legend>
+        <fieldset>
+            <legend>
+                <h2>Patient Information</h2>
+            </legend>
+            <label for="">Patient Name:</label>
+            <input type="text" name="name" id="p-name" required>
+            <br><br>
+            <label for="">Email Id:</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="">Mobile No.</label>
+            <input type="tel" name="phone" id="mobile">
+            <br><br>
+            <label for="">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>Apointment Details</h2>
+            </legend>
+            <label for="">Doctor</label>
+            <select name="doctor" id="doctor" required>
+                <option value="none">Select</option>
+                <option value="Smith">Dr. Smith</option>
+                <option value="Sams">Dr. Sams</option>
+                <option value="Jocef">Dr. Jocef</option>
+            </select>
+            <br><br>
+            <label for="">Department</label>
+            <select name="dep" id="dep" required>
+                <option value="none">Select</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neuro">Neurology</option>
+                <option value="Oncology">Oncology</option>
+            </select>
+            <br><br>
+            <label for="">Appointment Date:</label>
+            <input type="date" name="date" id="appt-date" required>
+            <br><br>
+            <label for="">Appointment Times:</label>
+            <input type="time" name="time" id="app-time" required>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>Symptoms and Addiional Information</h2>
+            </legend>
+            <label for="">Symptoms:</label><br>
+            <textarea name="Symptoms" id="Symptoms" required></textarea>
+            <br><br>
+            <label for="">Additional Information:</label><br>
+            <textarea name="Addiional-info" id="Addiional-info"></textarea>
+            <br><br>
+        </fieldset>
+    </fieldset>
+    <button type="submit">Submit</button>
+</body>
+
+</html>
